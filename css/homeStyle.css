@@ -1,10 +1,20 @@
 /* Cursive Font */
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
 
-
+@media (max-width: 768px) {
+	.carousel-caption p {
+		text-shadow: 2px 2px #000;
+	}
+	.carousel-caption h3 {
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+		text-shadow: 2px 2px #000;
+	}
+}
 
 body {
-
+	overflow-x: hidden;
+	/*font-family: 'Dancing Script';*/
 }
 
 /*====== Navigation =======*/
@@ -53,19 +63,6 @@ body {
 .home-inner {
 	background-image: url('img/landing.png');
 }
-.caption {
-	width: 100%;
-	max-width: 100%;
-	position: absolute;
-	top: 40%;
-	z-index: 1;
-}
-.caption h3 {
-	color: white;
-	font-size: 2.4rem;
-	text-transform: uppercase;
-	padding-bottom: 2rem;
-}
 
 .btn {
 	border-width: medium;
@@ -73,6 +70,16 @@ body {
 	padding: .5rem 1.1rem;
 	font-size: .9rem;
 	text-transform: uppercase;
+}
+
+.carousel-caption p {
+	text-shadow: 2px 2px #000;
+}
+
+.carousel-caption h3 {
+	font-size: 1.8rem;
+	padding-bottom: 1.2rem;
+	text-shadow: 2px 2px #000;
 }
 
 .carousel-item {
@@ -130,4 +137,67 @@ h1.heading {
 }
 .gif p {
 	font-size: 1.8rem;
+}
+
+
+/*============= CONTACT SECTION =============*/
+
+.footer .row {
+	background-color: rgba(0, 51, 102, .9)!important;
+	padding: 3rem 2rem 3rem;
+	color: white;
+}
+.footer img {
+	height: 2rem;
+	margin: 1.5rem 0;
+
+}
+.footer a {
+	font-family: 'Dancing Script';
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.footer a:hover {
+	color: #ffc114;
+}
+
+.footer svg.svg-inline--fa {
+	margin: 1.2rem .5rem 0 0;
+}
+.footer svg.svg-inline--fa:hover {
+	color: #ffc114!important;
+}
+.footer h3 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
+	margin: 1.5rem 0;
+}
+
+/*--- Contact Form --*/
+.form-group {
+	margin-bottom: 1.3rem;
+}
+.form-control {
+	background: #53595f;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color: white!important;
+}
+.form-control:focus {
+	background: #53595f;
+	border: .15rem solid #666b71;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+input.btn {
+	cursor: pointer;
+}
+hr.socket {
+	width: 100%;
+	border-top: .2rem solid #666b71;
 }
