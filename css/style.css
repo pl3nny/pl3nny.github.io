@@ -85,6 +85,19 @@ body {
   background-size: cover;
 }
 
+/*======= makes carousel img responsive ========*/
+/*.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}*/
+/*======= ===================== ================*/
+
+
 /*==== Fav Gif Section ========*/
 
 .jumbotron {
