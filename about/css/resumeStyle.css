@@ -48,9 +48,6 @@ p.lead {
   font-size: 1.15rem;
   font-weight: 400;
 }
-#page-top h3 {
-  color: white;
-}
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -76,7 +73,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #ffc114;
 }
 
 .dev-icons {
@@ -84,7 +81,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #ffc114;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -93,23 +90,28 @@ p.lead {
   text-transform: uppercase;
 }
 
+#sideNav .navbar-nav .nav-item .nav-link.active,
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ffc114;
+}
+
 #sideNav .navbar-toggler:focus {
   outline-color: rgba(0, 51, 102, .9)!important;
 }
 
 #logo a {
-	font-family: 'Dancing Script';
+  font-family: 'Dancing Script';
 	font-weight: 700;
 	font-size: 1.5rem;
 	color: white;
 }
 
-#logo a {
-	color: #ffc114;
+#logo a:hover {
+  color: #ffc114;
 }
 
 #logo img {
-	height: 2.5rem;
+  height: 2.5rem;
 	padding-right: .5rem;
 	padding-bottom: .5rem;
 }
@@ -209,5 +211,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #ffc114;
 }
