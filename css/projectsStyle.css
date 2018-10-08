@@ -4,8 +4,28 @@
 
 
 body {
-
+	padding-top: 54px;
 }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+	height: 62px;
+	margin-top: -62px;
+	content: "";
+	display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+	padding: 1rem;
+}
+
 
 /*====== Navigation =======*/
 .navbar {
@@ -47,4 +67,10 @@ body {
 }
 .navbar-nav li {
 	padding-right: .8rem;
+}
+
+/*====== Image thumbnails =======*/
+
+.container {
+	padding: 2rem 0;
 }
