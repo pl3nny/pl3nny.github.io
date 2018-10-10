@@ -176,7 +176,9 @@ h1.heading {
 	margin: 1.5rem 0;
 }
 
-/*--- Contact Form --*/
+/* --- Contact Form -- */
+
+/*
 .form-group {
 	margin-bottom: 1.3rem;
 }
@@ -200,4 +202,4 @@ input.btn {
 hr.socket {
 	width: 100%;
 	border-top: .2rem solid #666b71;
-}
+} */
