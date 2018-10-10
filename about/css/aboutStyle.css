@@ -116,6 +116,11 @@ p.lead {
 	padding-bottom: .5rem;
 }
 
+#org img {
+  height: 9rem;
+  padding-bottom: 2rem;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
