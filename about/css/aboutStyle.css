@@ -57,7 +57,7 @@ p.lead {
 }
 
 
-.social-icons a {
+#about-social-icons .social-icons a {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
@@ -67,7 +67,7 @@ p.lead {
   margin-right: 1rem;
 }
 
-.social-icons a:last-child {
+#about-social-icons .social-icons a:last-child {
   margin-right: 0;
 }
 
