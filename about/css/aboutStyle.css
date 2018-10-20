@@ -56,6 +56,19 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.navbar {
+	/*padding: .6rem 1rem;*/
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	background-color: rgba(0, 51, 102, .9)!important;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
+}
 
 #about-social-icons .social-icons a {
   display: inline-block;
@@ -115,6 +128,11 @@ p.lead {
   height: 9rem;
   padding-bottom: 2rem;
 }
+
+/* .svg-inline--fa.fa-w-14 {
+	color: white;
+	font-size: 1.6rem;
+} */
 
 @media (min-width: 992px) {
   #sideNav {
