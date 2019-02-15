@@ -8,7 +8,7 @@ body {
 }
 
 /* Nav Scrolling Offset */
-.offset:before{
+.offset:before {
 	height: 62px;
 	margin-top: -62px;
 	content: "";
@@ -31,7 +31,7 @@ body {
 }
 
 .navbar-brand img {
-	height: 2.5rem;
+	height: 2rem;
 }
 
 .navbar-nav .nav-link {
@@ -45,7 +45,7 @@ body {
 }
 
 .svg-inline--fa.fa-w-14 {
-	color: black;
+	color: white;
 	font-size: 1.6rem;
 }
 
@@ -181,4 +181,81 @@ img.example-image {
 	border-top: 1px solid rgba(0, 0, 0, .1); 
 	padding: 1rem;
 	margin: 1rem 0 1.5rem;
+}
+
+/* ================ CONTACT SECTION ================ */
+
+.footer .row {
+	background-color: black;
+	padding: 1 rem 2 rem 3rem;
+	color: white;
+}
+
+.footer img {
+	height: 4rem;
+	margin: 1.5rem 0;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer .svg-inline--fa {
+	margin: 1.2rem .5rem 0 0;
+	color: white;
+}
+
+.footer .svg-inline--fa:hover {
+	color: red!important;
+}
+
+.footer h3 {
+	text-transform: uppercase;
+	margin: 1.5rem 0;
+}
+
+/*-- Contact Form --*/
+
+.form-group {
+	margin-bottom: 1.3rem;
+}
+
+.form-control {
+	background: #666b71;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color: white!important;
+}
+
+.form-control:focus {
+	background: #53595f;
+	border: .15rem solid #666b71;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+
+input.btn {
+	cursor: pointer;
+}
+
+hr.socket {
+	width: 100%;
+	border-top: .2rem solid #666b71;
+}
+
+/* ================ MEDIA QUERIES ================ */
+/* Medium (md) devices (tablets, 768px and under) */
+
+@media (max-width: 768px) {
+	.caption {
+		top: 35%;
+	}
+
+	.caption h3 {
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+	}
 }

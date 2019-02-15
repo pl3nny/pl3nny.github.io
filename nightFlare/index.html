@@ -78,7 +78,7 @@
 <!-- End Home Section -->
 
 <!-- Start About Section  -->
-<div id="about">
+<div id="about" class="offset">
 <!-- Start Jumbotron -->
 
 <div class="jumbotron">
@@ -122,7 +122,7 @@
 <!-- End About Section -->
 
 <!-- Start Event Section  -->
-<div id="events">
+<div id="events" class="offset">
 <div class="container-fluid padding">
 	<h3 class="heading">Upcoming Events</h3>
 	<div class="heading-underline"></div> 
@@ -181,7 +181,7 @@
 <!-- End Event Section -->
 
 <!-- Start Team Section  -->
-<div id="team">
+<div id="team" class="offset">
 
 <div class="jumbotron">
 	<h3 class="heading">Team</h3>
@@ -204,8 +204,47 @@
 <!-- End Team Section -->
 
 <!-- Start Contact Section  -->
-<div id="contact">
+<div id="contact" class="offset">
+<div class="container-fluid footer">
+<div class="row">
+	<div class="col-md-5">
+		<img src="img/nav-white-logo.png" alt="">
+		<p>This company is cool and blah blah blah blah blah blah blah blah blah</p>
+		<strong>Trashville</strong>
+		<p>123 Check Yo Self<br>Trash Town, Crap 187</p>
+		<strong>Contact Info</strong>
+		<p>(187)187-187187<br>trashcan@nightflare.com</p>
+		<a href="#"><i class="fab fa-facebook-square"></i></a>
+		<a href="#"><i class="fab fa-twitter-square"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
 
+	<div class="col-md-7">
+		<h3>Constact Us</h3>
+		<form id="contact-form" method="post" action="contact.php">
+			<div class="messages"></div>
+			<div class="controls">
+				<div class="form-group">
+					<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name" required="required">
+				</div>
+
+				<div class="form-group">
+					<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email" required="required">
+				</div>
+
+				<div class="form-group">
+					<textarea name="message" id="form_message" class="form-control" placeholder="Add your message" rows="4" required="required"></textarea>
+				</div>
+
+				<input type="submit" class="btn btn-outline-light" value="Send message">
+			</div>
+		</form>
+	</div>
+
+	<hr class="socket">
+	&copy; NightFlare Company
+</div> <!-- End Row -->
+</div> <!-- End Container Footer -->
 </div>
 <!-- End Contact Section -->
 
