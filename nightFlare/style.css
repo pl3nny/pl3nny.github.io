@@ -3,7 +3,7 @@
 
 body {
 	overflow-x: hidden;
-	font-family: 'lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #505962;
 }
 
@@ -124,7 +124,6 @@ h3.heading {
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	padding-bottom: .4rem;
-	padding-top: 1rem;
 }
 
 .about p {
@@ -145,13 +144,13 @@ img.example-image {
 	max-width: 100%;
 }
 
+.events-item img {
+	transition: transform .4s ease;
+}
+
 .events-item img:hover {
 	transform: scale(1.1);
 	cursor: zoom-in;
-}
-
-.events-item img {
-	transition: transform .4s ease;
 }
 
 .events-item {
@@ -178,7 +177,7 @@ img.example-image {
 }
 
 .card p {
-	border-top: 1px solid rgba(0, 0, 0, .1); 
+	border-top: 1px solid rgba(0, 0, 0, 0.1); 
 	padding: 1rem;
 	margin: 1rem 0 1.5rem;
 }
@@ -187,7 +186,7 @@ img.example-image {
 
 .footer .row {
 	background-color: black;
-	padding: 1 rem 2 rem 3rem;
+	padding: 1rem 2rem 3rem;
 	color: white;
 }
 
@@ -200,12 +199,12 @@ img.example-image {
 	color: white;
 }
 
-.footer .svg-inline--fa {
+.footer svg.svg-inline--fa {
 	margin: 1.2rem .5rem 0 0;
 	color: white;
 }
 
-.footer .svg-inline--fa:hover {
+.footer svg.svg-inline--fa:hover {
 	color: red!important;
 }
 
