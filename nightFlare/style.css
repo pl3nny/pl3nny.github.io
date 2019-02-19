@@ -187,8 +187,13 @@ img.example-image {
 
 .card p {
 	border-top: 1px solid rgba(0, 0, 0, 0.1); 
+<<<<<<< HEAD
 	/* padding: 0; */
 	/* margin: 1rem 0 1.5rem; */
+=======
+	padding: 1rem;
+	margin: 1rem 0 1.5rem;
+>>>>>>> 0f743975a244363b96809a484129ebac08e0b032
 }
 
 /* ================ CONTACT SECTION ================ */
