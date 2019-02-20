@@ -1,165 +1,327 @@
+<!-- NightFlare Company Html site -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewPort" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="icon" href="img/thinkingEmoji.png">
-	<title>pl3nny.io</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>NightFlare Company</title>
+	<link rel="shortcut icon" href="img/nfc-icon.png">
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/indexStyle.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
-<!-- Start of Home -->
-<div id="home">
 
-<!-- Navtigation -->
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+<!-- Start Home Section -->
+<div id="home">
+<!-- Navigation -->
 <nav class="navbar navbar-expand-md fixed-top">
 <div class="container-fluid">
-	<a class="navbar-brand" href="#home"><img src="img/thinkingEmoji.png" alt="thinking emoji">Pl3nny</a>
+	<a class="navbar-brand" href="#home"><img src="img/nav-white-logo.png" alt="navbar-brand"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+		<!-- Navbar Toggler "Hamburger" -->
+		<span class="custom-toggler-icon">
+			<i class="fas fa-bars"></i>
+		</span>
 	</button>
 
+	<!-- Navigation links -->
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
+
 			<li class="nav-item">
 				<a class="nav-link js-scroll-trigger" href="#home">Home</a>
 			</li>
-			<!-- <li class="nav-item">
-				<a class="nav-link" href="projects/projects.html">Projects</a>
-			</li> -->
 			<li class="nav-item">
-				<a class="nav-link" href="about/about.html">About Me 👀</a>
+				<a class="nav-link js-scroll-trigger" href="#about">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link js-scroll-trigger" href="#events">Events</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link js-scroll-trigger" href="#team">Team</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://github.com/pl3nny">GitHub</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="nightFlare/index.html">NightFlare</a>
-			</li>
+
 		</ul>
 	</div>
-	
 </div>
 </nav>
-</div>
-<!-- End of Navigation -->
+<!-- End Navigation -->
 
-<!-- Start of landing page -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner embed-responsive" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('img/slide1.jpg')">
-            <div class="carousel-caption text-left">
-              <h3>Always Working on Something</h3>
-              <p>Either for a project or simply testing out new concepts</p>
-            </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/slide2.jpg')">
-            <div class="carousel-caption text-center">
-              <h3>On the Go</h3>
-              <p>Some stuff I simply have to take with me where ever I go.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('img/slide3.jpg')">
-            <div class="carousel-caption text-right">
-              <h3>Design</h3>
-              <p>Having an idea and visualization it<br>first makes everything fall together<br>when writing code.</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-<!-- End of Landing page -->
-<!-- End Home Section -->
-
-<!-- Start of Jumbotron -->
-<div id="gif" class="offset">
-<div class="jumbotron">
-	<h1 class="heading">Welcome! 😬🍻</h1>
-	<div class="heading-underline"></div>
-	<div class="row narrow">
-		<div class="col-md-7">
-			<p class="lead">
-				Welcome to my personal webpage where you can get an idea of who I am as well as the projects I have worked on. 
-				<br>Cheers! 😬🍻
-
-				<br><br>
-				Everyone has a fav gif they like to share, and I always share this gif with my friends. I believe this gif is self explanitory. 😅
-			</p>	
-		</div>
- 
-		<div class="col-md-5 text-center">
-			<img src="img/drunkenApe.gif" class="rounded mx-auto d-block" alt="">
+<!-- Start Landing Page Image -->
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
 		</div>
 	</div>
 </div>
+ <!-- End Landing Page Image -->
+
+ <!-- Start Landing Page Caption -->
+ <div class="caption center-block text-center">
+	 
+	<img src="img/nfc-navbar-brand.png" alt="">
+
+	<h3>A Music, Film, Production & Booking Company</h3>
+	<!-- <a class="btn btn-outline-dark" href="#team">Meet the Band</a> -->
+	<a href="https://www.facebook.com/nightflarecompany/"><i class="fab fa-facebook-square"></i></a>
+	<a href="https://twitter.com/nightflare_co"><i class="fab fa-twitter-square"></i></a>
+	<a href="https://www.instagram.com/nightflarecompany/"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.youtube.com/channel/UCjqS_mdBNEgT3lx5tF5lY0g"><i class="fab fa-youtube-square"></i></a>
+ </div>
+ <!-- End Landing Page Caption -->
+
 </div>
-<!-- End of Jumbotron -->
+<!-- End Home Section -->
 
-<!-- Start of Contact -->
+<!-- Start About Section  -->
+<div id="about" class="offset">
+<!-- Start Jumbotron -->
 
+<div class="jumbotron">
+	<h3 class="heading">Check us out</h3>
+	<div class="heading-underline"></div>
+
+	<div class="row narrow">
+		<div class="col-md-4">
+			<div class="about text-center">
+				<i class="fab fa-spotify fa-3x"></i>
+				<h3>Spotify</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. 
+				</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="about text-center">
+				<i class="fab fa-google-play fa-3x"></i>
+				<h3>Google Play Store</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="about text-center">
+				<i class="fab fa-itunes-note fa-3x"></i>
+				<h3>itunes</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+		</div>
+	</div> <!-- End Row -->
+</div> <!-- End Jumbotron -->
+
+</div>
+<!-- End About Section -->
+
+<!-- Start Event Section  -->
+<div id="events" class="offset">
+<div class="container-fluid padding">
+	<h3 class="heading">Upcoming Events</h3>
+	<div class="heading-underline"></div> 
+
+<!-- Start Event Grid -->
+	<div class="row no-padding">
+		<div class="col-md-6">
+			<div class="events-item">
+				<a href="img/events/logo_blackwhite.jpg" data-lightbox="example-set"
+				data-title="Some Description">
+				<img class="example-image" src="img/events/logo_blackwhite.jpg" alt="">
+				</a>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="events-item">
+				<a href="img/events/logo_fullcolor.jpg" data-lightbox="example-set"
+				data-title="Some Description">
+				<img class="example-image" src="img/events/logo_whitebg.jpg" alt="">
+				</a>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="events-item">
+				<a href="img/events/logo_whitebg.jpg" data-lightbox="example-set"
+				data-title="Some Description">
+				<img class="example-image" src="img/events/logo_whitebg.jpg" alt="">
+				</a>
+			</div> 
+		</div>
+
+		<div class="col-md-6">
+			<div class="events-item">
+				<a href="img/events/logo_blackwhite.jpg" data-lightbox="example-set"
+				data-title="Some Description">
+				<img class="example-image" src="img/events/logo_blackwhite.jpg" alt="">
+				</a>
+			</div>
+		</div>
+	</div> <!-- End Row-->
+<!-- End Event Grid -->
+</div> <!-- End Container -->
+
+<div class="narrow text-center padding">
+	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+		tempor incididunt ut labore et dolore magna aliqua.
+	</p>
+	<div class="center-block">
+		<a class="btn btn-secondary" href="#contact">Get In Touch</a>
+	</div>
+</div>
+
+</div>
+<!-- End Event Section -->
+
+<!-- Start Team Section  -->
+<div id="team" class="offset">
+
+<div class="jumbotron">
+	<h3 class="heading">Team</h3>
+	<div class="heading-underline"></div>
+
+<div class="row narrow justify-content-center">
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-dav.jpg" alt="">
+			<div class="card-body">
+				<h4>David<br>Hernandez</h4>
+				<p>CEO<br>NightFlare & Co</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-erstor.jpg" alt="">
+			<div class="card-body">
+				<h4>Erstor<br>Suares</h4>
+				<p>Film<br>Director</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-ivan.jpg" alt="">
+			<div class="card-body">
+				<h4>Ivan<br>Oyarzabal</h4>
+				<p>Screen Writer<br>Director</p>
+			</div>
+		</div>
+	</div>
+</div> <!-- End Row-->
+
+<div class="row narrow">
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-abraham.jpg" alt="">
+			<div class="card-body">
+				<h4>Abraham<br>Farias</h4>
+				<p>Film<br>Assistant Director</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-fankie.jpg" alt="">
+			<div class="card-body">
+				<h4>Frank<br>Valentine</h4>
+				<p>Producer<br>Studio Recording</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-joaquin.jpg" alt="">
+			<div class="card-body">
+				<h4>Joaquin<br>Sandoval</h4>
+				<p>Sound Engineer<br>Live Sound</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-3">
+		<div class="card text-center">
+			<img class="card-img-top" src="img/team/team-ryan.jpg" alt="">
+			<div class="card-body">
+				<h4>Ryan<br>Perez</h4>
+				<p>Marketing<br>Consulting</p>
+			</div>
+		</div>
+	</div>
+</div> <!-- End Row-->
+</div> <!-- End Jumbotron-->
+</div>
+<!-- End Team Section -->
+
+<!-- Start Contact Section  -->
 <div id="contact" class="offset">
-	
 <div class="container-fluid footer">
 <div class="row">
-
 	<div class="col-md-5">
-		<img src="img/thinkingEmoji.png" alt=""> <a href="#home" title="">Pl3nny</a>
-		<p>Check out my "About Me" Section 👀</p>
-		<strong>Follow Me!</strong>
-		<br>
-		<div class="social-icons">
-			<a href="https://www.linkedin.com/in/alexander-hernandez-b1b645155/"><i class="fab fa-linkedin"></i></a>
-			<a href="https://github.com/pl3nny"><i class="fab fa-github"></i></a>
-			<a href="https://twitter.com/pl3nny"><i class="fab fa-twitter"></i></a>
-			<a href="https://www.instagram.com/pl3nny/"><i class="fab fa-instagram"></i></a>
-		</div>
+		<img src="img/nav-white-logo.png" alt="">
+		<p>This company is cool and blah blah blah blah blah blah blah blah blah</p>
+		<strong>Trashville</strong>
+		<p>123 Check Yo Self<br>Trash Town, Crap 187</p>
+		<strong>Contact Info</strong>
+		<p>(187)187-187187<br>trashcan@nightflare.com</p>
+		<a href="https://www.facebook.com/nightflarecompany/"><i class="fab fa-facebook-square"></i></a>
+		<a href="https://twitter.com/nightflare_co"><i class="fab fa-twitter-square"></i></a>
+		<a href="https://www.instagram.com/nightflarecompany/"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.youtube.com/channel/UCjqS_mdBNEgT3lx5tF5lY0g"><i class="fab fa-youtube-square"></i></a>
 	</div>
 
 	<div class="col-md-7">
-		<h3>Contact Me 😭</h3>
-		<P><a href="mailto:pl3nny@live.com" title=""><i class="fas fa-envelope"></i> Alexander Hernandez</a></P>
+		<h3>Contact Us</h3>
+		<form id="contact-form" method="post" action="contact.php">
+			<div class="messages"></div>
+			<div class="controls">
+				<div class="form-group">
+					<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name" required="required">
+				</div>
+
+				<div class="form-group">
+					<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email" required="required">
+				</div>
+
+				<div class="form-group">
+					<textarea name="message" id="form_message" class="form-control" placeholder="Add your message" rows="4" required="required"></textarea>
+				</div>
+
+				<input type="submit" class="btn btn-outline-light" value="Send message">
+			</div>
+		</form>
 	</div>
 
 	<hr class="socket">
-	&copy; pl3nny NAK AB A #10 
-
-</div> <!--- End Row -->
-</div> <!--- End Container Footer -->
-
+	&copy; NightFlare Company
+</div> <!-- End Row -->
+</div> <!-- End Container Footer -->
 </div>
+<!-- End Contact Section -->
 
-<!-- End of Contact -->
-
-
-<!--- Script Source Files -->
+<!-- Script Source Files  -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!--- End of Script Source Files -->
-
-<!-- custom JavaScript -->
+<script src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/contact.js"></script>
+<!-- End of Script Source Files -->
+
 </body>
 </html>
