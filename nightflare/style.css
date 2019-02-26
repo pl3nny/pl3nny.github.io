@@ -191,6 +191,16 @@ img.example-image {
 	/* margin: 1rem 0 1.5rem; */
 }
 
+.team-section svg.svg-inline--fa {
+	margin: 1.2rem .5rem 0 0;
+	color: black;
+}
+
+.team-section svg.svg-inline--fa:hover {
+	color: red!important;
+}
+
+
 /* ================ CONTACT SECTION ================ */
 
 .footer .row {
