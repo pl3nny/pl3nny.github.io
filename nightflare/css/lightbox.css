@@ -39,7 +39,7 @@ html.lb-disable-scrolling {
 }
 
 .lightbox a img {
-  border: none;
+  border: 10px;
 }
 
 .lb-outerContainer {
