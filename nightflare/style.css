@@ -4,7 +4,8 @@
 body {
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
-	color: #505962;
+	/* color: #505962; */
+	color: white;
 }
 
 /* Nav Scrolling Offset */
@@ -30,6 +31,7 @@ body {
 	letter-spacing: .1rem;
 	background-color: rgba(0, 0, 0, .9) !important;
 }
+
 
 .navbar-brand img {
 	height: 2rem;
@@ -95,6 +97,26 @@ body {
 	color: red!important;
 }
 
+/* Portfilio */
+
+#portfolio h1 {
+	color: white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+}
+
+#portfolio svg.svg-inline--fa {
+	margin: 1.2rem .5rem 0 0;
+	color: white;
+}
+
+#portfolio svg.svg-inline--fa:hover {
+	color: red!important;
+}
+
+/* /portfolio */
+
 .btn {
 	border-width: medium;
 	border-radius: 0;
@@ -109,6 +131,7 @@ body {
 	margin-bottom: 0;
 	border-radius: 0;
 	padding: 3rem 0 3rem;
+	background-color: rgb(34, 34, 34);
 }
 
 .narrow {
