@@ -1,0 +1,112 @@
+/* Cursive Font */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+
+
+
+body {
+	padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+	height: 62px;
+	margin-top: -62px;
+	content: "";
+	display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+	padding: 1rem;
+}
+
+
+/*====== Navigation =======*/
+.navbar {
+	/*padding: .6rem 1rem;*/
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	background-color: rgba(0, 51, 102, .9)!important;
+}
+.navbar-brand {
+	font-family: 'Dancing Script';
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: #ffc114;
+}
+
+.navbar-brand img {
+	height: 2.5rem;
+	padding-right: .5rem;
+	padding-bottom: .5rem;
+}
+
+.navbar-nav .nav-link {
+	color: white;
+	padding-top: .8rem;
+	text-transform: uppercase;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+	color: #ffc114;
+}
+.svg-inline--fa.fa-w-14 {
+	color: white;
+	font-size: 1.6rem;
+}
+.navbar-nav li {
+	padding-right: .8rem;
+}
+
+/*====== Image thumbnails =======*/
+
+.container {
+	padding: 2rem 0;
+}
+
+/*============= CONTACT SECTION =============*/
+
+.footer .row {
+	background-color: rgba(0, 51, 102, .9)!important;
+	padding: 3rem 2rem 3rem;
+	color: white;
+}
+.footer img {
+	height: 2rem;
+	margin: 1.5rem 0;
+
+}
+.footer a {
+	font-family: 'Dancing Script';
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.footer a:hover {
+	color: #ffc114;
+}
+
+.footer svg.svg-inline--fa {
+	margin: 1.2rem .5rem 0 0;
+}
+.footer svg.svg-inline--fa:hover {
+	color: #ffc114!important;
+}
+.footer h3 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
+	margin: 1.5rem 0;
+}
