@@ -239,6 +239,18 @@ img.example-image {
 	color: red!important;
 }
 
+.team-section h5 {
+	color: black;
+}
+
+.team-section .h1-responsive{
+	color: black;
+}
+
+.team-section p{
+	color: black;
+}
+
 
 /* ================ CONTACT SECTION ================ */
 
