@@ -395,3 +395,36 @@ hr {
 .scroll-to-top:hover {
   background-color: var(--color-primary-hover);
 }
+
+/* ==========================================================================
+   Gallery Preview / CTA Link
+   ========================================================================== */
+.gallery-preview-section {
+  padding: var(--space-3xl) var(--space-lg);
+  text-align: center;
+  background-color: var(--color-bg-alt);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.gallery-preview-section p {
+  margin: 0;
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+}
+
+.gallery-link {
+  display: inline-block;
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  transition: background-color var(--transition-fast);
+}
+
+.gallery-link:hover {
+  background-color: var(--color-primary-hover);
+}
