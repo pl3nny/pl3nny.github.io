@@ -1007,3 +1007,22 @@ hr {
     font-size: 2rem;
   }
 }
+
+/* ==========================================================================
+   Page Header (for sub-pages with fixed navbar)
+   ========================================================================== */
+.page-header {
+  padding: 80px var(--space-lg) var(--space-3xl);
+  text-align: center;
+  background-color: var(--color-bg);
+}
+
+.page-header .hero-title {
+  margin-bottom: var(--space-sm);
+}
+
+.page-header .hero-subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
