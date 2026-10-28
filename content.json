@@ -6,7 +6,7 @@
     "author": "Alexander Hernandez"
   },
   "pl3nny": {
-    "nav": ["Home", "About", "Projects", "GitHub", "NightFlare"],
+    "nav": ["Home", "About", "Projects", "GitHub"],
     "github": "https://github.com/pl3nny",
     "social": {
       "linkedin": "https://www.linkedin.com/in/alexander-hernandez-b1b645155/",
@@ -41,18 +41,15 @@
     },
     "about": {
       "name": "Alexander Hernandez",
-      "location": "San Francisco, CA",
-      "email": "alexander.hernandez.ra6@gmail.com",
-      "bio": "San Francisco State University alum with a B.S. in Computer Science. I work at the intersection of software quality and full-stack development, with a focus on building reliable systems and thoughtful user experiences.\n\nI'm constantly learning — whether it's a new language, framework, or approach to a problem I've already solved. I believe the best engineers are the ones who stay curious.\n\nCollaboration is central to how I work. Leading teams through my fraternity presidency taught me that good leadership isn't just about direction; it's about creating space for others to lead too.",
-      "profileImage": "img/pl3nny.jpg",
+      "title": "Software QA Technical Lead",
+      "location": "San Francisco Bay Area",
+      "email": "pl3nny@live.com",
+      "bio": "I am a Software Quality Operations Lead with over 7.5 years of experience scaling safety, root cause analysis triage, and synthetic testing for industry-leading autonomous vehicle pipelines.\n\nMy core focus is bridging the gap between software engineering and operational testing. I specialize in architecting automated Python workflows, managing massive simulation datasets (Foretellix/OSC2), and engineering custom metrics that systematically isolate algorithmic regressions and machine learning anomalies. Whether I'm directing a cross-functional QA team or getting hands-on with root-cause analysis for edge-case bugs, my goal is to drive engineering velocity without ever compromising on safety.\n\nBeyond the AV space, I am an active builder and systems tinkerer. When I'm not deep in telemetry logs, I spend my time designing and 3D printing custom functional engineering parts, running containerized Linux/Docker home labs, and optimizing complex hardware arrays for deep-sky astrophotography.",
+      "technicalStack": "Python, C++, SQL, Linux, Bash, Docker, Foretellix, Machine Learning Validation, Data Pipeline Management",
+      "profileImage": "img/profilePicture.jpg",
       "skills": {
-        "programmingLanguages": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "C", "C++", "Django", "Java", "MySQL", "Python", "Ruby", "Swift", "PHP", "GitHub"],
-        "workflow": [
-          "Design, Prototype, Test, Deploy",
-          "Cross-Browser Testing & Debugging",
-          "Cross-Functional Team Leadership",
-          "Agile Development & Scrum"
-        ]
+        "programmingLanguages": ["Python", "C++", "SQL", "Bash", "Java", "HTML5", "CSS3", "JavaScript"],
+        "tools": ["Docker", "Foretellix", "OSC2", "Linux", "Git", "CI/CD Pipelines", "MySQL", "JetBrains IDEs"]
       },
       "education": [
         {
@@ -60,49 +57,58 @@
           "degree": "Bachelor of Science",
           "field": "Computer Science",
           "description": "Covered core CS fundamentals including data structures, algorithms, software engineering, and multiple programming paradigms. Active in Nu Alpha Kappa Fraternity, Inc. from Fall 2015.",
-          "dates": "August 2015 – May 2018"
-        },
-        {
-          "school": "Mt. San Antonio College",
-          "degree": "Transfer",
-          "field": "Computer Science",
-          "dates": "January 2013 – May 2015"
+          "dates": "2015 – 2018"
         }
       ],
       "experience": [
         {
-          "title": "Software Quality Engineer",
+          "title": "Software Quality Operations Technical Lead",
           "company": "Nuro",
-          "dates": "February 2021 – Present",
-          "description": "Ensuring the quality and reliability of autonomous vehicle software through comprehensive testing strategies, automated test development, and cross-functional collaboration with engineering teams."
+          "dates": "Jul 2023 – Present",
+          "description": "Dual role as QA Operations Lead and internal tooling support, architecting Python workflows to resolve pipeline bottlenecks and ship new tooling features. Engineered data pipelines to ingest over 1,000 specialized context datasets with up to 2,000 unique synthetic scenes each, automating ML model validation. Authored continuous validation checks consuming Foretellix/OSC2 scenarios, establishing custom metrics that systematically flagged algorithmic regressions. Directed a QA operations team of up to 10 personnel."
         },
         {
-          "title": "Software Quality Engineer",
+          "title": "Software Quality Operations Specialist",
+          "company": "Nuro",
+          "dates": "Feb 2021 – Jul 2023",
+          "description": "Developed simulated tests and custom metric checks to capture passing/failing behaviors across autonomous software variants. Designed robust synthetic scenarios to stress-test software and recreate complex real-world edge cases. Collaborated with engineering teams to report high-impact events, isolate root causes in the ML pipeline, and drive continuous bug resolution. Managed weekly CI software validation simulations and maintained critical testing dashboards."
+        },
+        {
+          "title": "Software Quality Operations Specialist (Contract)",
           "company": "Waymo",
-          "dates": "November 2018 – December 2020",
-          "description": "Led testing initiatives for autonomous driving systems — authored test scenarios, analyzed test data to surface regression risks, and partnered with product and engineering teams to drive quality improvements. Mentored new team members, maintained test documentation, and presented findings to stakeholders."
+          "dates": "Nov 2018 – Dec 2020",
+          "description": "Executed rigorous software test plans and provided critical live/on-call telemetry triage for autonomous vehicle fleets. Acted as primary technical liaison between Software Engineering and Operations, providing detailed data updates during weekly sprint meetings. Performed quality control and root-cause isolation on software behavior anomalies to ensure strict adherence to safety protocols."
         },
         {
           "title": "Computer Science Tutor",
           "company": "San Francisco Education Fund",
-          "dates": "February 2018 – May 2018",
+          "dates": "Feb 2018 – May 2018",
           "description": "Tutored high school students at Thurgood Marshall Academic High School in web development fundamentals (HTML, CSS) and introductory programming with micro:bit for hands-on projects and game development."
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Selenium WebDriver with Java for Beginners",
+          "issuer": "Udemy",
+          "date": "Oct 2020"
         },
         {
-          "title": "Manager & Financial Manager",
-          "company": "Envios Salvamex",
-          "dates": "January 2012 – July 2015",
-          "description": "Managed daily operations and financial compliance for a remittance business. Handled CTR and SAR filings, oversaw wire transfer processing, and provided technical and customer support for payment services."
+          "name": "Master SQL for Data Science",
+          "issuer": "Udemy",
+          "date": "Oct 2020"
         }
       ],
       "organization": {
         "name": "Nu Alpha Kappa Fraternity, Inc.",
         "roles": "President, Vice President, Financial Officer, Community Service, Brotherhood Chair",
         "description": "Member since Fall 2015. Held multiple leadership roles across my undergraduate years, including Brotherhood Chair, Community Service, Treasurer, Vice President, and President in my final year at SFSU. Our chapter is known for strong community service and outreach programming.",
-        "dates": "Fall 2015 – Present",
+        "dates": "Dec 2015 – Present",
         "logo": "img/NAK_Emblem.png"
       },
-      "interests": "Fitness is a constant in my routine. I also enjoy video games — plenty of them. I'm always looking for the next side project to dive into."
+      "languages": [
+        { "name": "English", "level": "Native or bilingual proficiency" },
+        { "name": "ASL", "level": "Limited working proficiency" }
+      ]
     },
     "footer": {
       "copyright": "© 2026 Alexander Hernandez"
