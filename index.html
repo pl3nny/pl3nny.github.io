@@ -86,30 +86,43 @@
     </div>
   </section>
 
-  <!-- Projects Preview -->
-  <section id="projects-preview" class="projects-preview">
+  <!-- Astrophotography -->
+  <section id="astro-preview" class="astro-preview">
     <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <p class="section-subtitle">Things I've built and am working on</p>
-      <div class="project-grid">
-        <a href="projects/projects.html" class="card project-card">
-          <img src="img/slide1.jpg" alt="Project preview" class="project-image" width="400" height="300" loading="lazy">
-          <h3 class="card-title">Autonomous Systems</h3>
-          <p class="card-text">Quality engineering for self-driving vehicle software.</p>
-        </a>
-        <a href="projects/projects.html" class="card project-card">
-          <img src="img/slide2.jpg" alt="Project preview" class="project-image" width="400" height="300" loading="lazy">
-          <h3 class="card-title">Full-Stack Apps</h3>
-          <p class="card-text">End-to-end web applications with modern tooling.</p>
-        </a>
-        <a href="projects/projects.html" class="card project-card">
-          <img src="img/slide3.jpg" alt="Project preview" class="project-image" width="400" height="300" loading="lazy">
-          <h3 class="card-title">Side Projects</h3>
-          <p class="card-text">Experiments, prototypes, and things built for fun.</p>
-        </a>
+      <h2 class="section-title">Astrophotography</h2>
+      <p>When I'm not deep in telemetry logs, I'm out chasing deep-sky objects.</p>
+      <div class="gallery-grid">
+        <figure class="gallery-item" data-hero-src="img/astro/webp-hero/M31-heavy_stars-v1_hero.webp" data-caption="M31 — Andromeda Galaxy">
+          <img src="img/astro/webp-gallery/M31-heavy_stars-v1_gallery.webp" alt="M31 Andromeda Galaxy" width="800" height="533" loading="lazy">
+          <figcaption>M31 — Andromeda Galaxy</figcaption>
+        </figure>
+        <figure class="gallery-item" data-hero-src="img/astro/webp-hero/M51-HDR2-no%20blue%20tint_hero.webp" data-caption="M51 — Whirlpool Galaxy">
+          <img src="img/astro/webp-gallery/M51-HDR2-no%20blue%20tint_gallery.webp" alt="M51 Whirlpool Galaxy" width="800" height="533" loading="lazy">
+          <figcaption>M51 — Whirlpool Galaxy</figcaption>
+        </figure>
+        <figure class="gallery-item" data-hero-src="img/astro/webp-hero/M%208%20-%20The%20Lagoon%20Nebula%20-%203_hero.webp" data-caption="M8 — Lagoon Nebula">
+          <img src="img/astro/webp-gallery/M%208%20-%20The%20Lagoon%20Nebula%20-%203_gallery.webp" alt="M8 Lagoon Nebula" width="800" height="533" loading="lazy">
+          <figcaption>M8 — Lagoon Nebula</figcaption>
+        </figure>
+        <figure class="gallery-item" data-hero-src="img/astro/webp-hero/leo%20triplet%20non%20spike%200.7_hero.webp" data-caption="Leo Triplet">
+          <img src="img/astro/webp-gallery/leo%20triplet%20non%20spike%200.7_gallery.webp" alt="Leo Triplet of galaxies" width="800" height="533" loading="lazy">
+          <figcaption>Leo Triplet</figcaption>
+        </figure>
       </div>
+      <p style="text-align: center; margin-top: var(--space-xl);"><a href="projects/projects.html" class="gallery-link">View my full astro gallery →</a></p>
     </div>
   </section>
+
+  <!-- Lightbox Modal -->
+  <div id="gallery-lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" class="lightbox-image">
+      <figcaption id="lightbox-caption" class="lightbox-caption"></figcaption>
+    </div>
+  </div>
 </main>
 
 <!-- Footer -->
@@ -135,5 +148,6 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/projects.js"></script>
 </body>
 </html>
