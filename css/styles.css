@@ -764,6 +764,12 @@ hr {
   height: 32px;
 }
 
+.nav-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-border);
+}
+
 .nav-links {
   display: none;
   list-style: none;
