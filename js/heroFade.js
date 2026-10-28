@@ -28,8 +28,8 @@
 
     /* Animate hero avatar shrink + fly toward navbar */
     if (heroAvatar && heroInitialRect) {
-      var avatarFadeStart = navbarHeight * 0.3;
-      var avatarFadeEnd = navbarHeight * 1.5;
+      var avatarFadeStart = navbarHeight * 0.5;
+      var avatarFadeEnd = navbarHeight * 5;
       var navbarAvatar = document.querySelector('.nav-avatar');
 
       if (scrollY <= avatarFadeStart) {
