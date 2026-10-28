@@ -293,8 +293,21 @@ pre {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--color-bg);
+  background-image: url("../img/astro/webp-hero/M16%20-%20Eagle%20Nebula%20SHO%20Hubble%20-%203_hero.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
+  position: relative;
+  z-index: 1;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 15, 0.7);
+  z-index: -1;
 }
 
 .hero-title {
