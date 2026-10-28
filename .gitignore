@@ -1,0 +1,7 @@
+# Tool artifacts
+.playwright-cli/
+lighthouse-*.json
+
+# OS
+.DS_Store
+Thumbs.db
