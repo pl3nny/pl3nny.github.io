@@ -1,0 +1,172 @@
+{
+  "site": {
+    "name": "pl3nny.io",
+    "brand": "Pl3nny",
+    "favicon": "img/thinkingEmoji.png",
+    "author": "Alexander Hernandez"
+  },
+  "pl3nny": {
+    "nav": ["Home", "About", "Projects", "GitHub"],
+    "github": "https://github.com/pl3nny",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/alexander-hernandez-b1b645155/",
+      "github": "https://github.com/pl3nny",
+      "twitter": "https://twitter.com/pl3nny",
+      "instagram": "https://www.instagram.com/pl3nny/"
+    },
+    "email": "pl3nny@live.com",
+    "hero": {
+      "slides": [
+        {
+          "image": "img/slide1.jpg",
+          "title": "Building Something New",
+          "subtitle": "Exploring ideas through code, design, and iteration"
+        },
+        {
+          "image": "img/slide2.jpg",
+          "title": "On the Move",
+          "subtitle": "Tools and projects I carry everywhere"
+        },
+        {
+          "image": "img/slide3.jpg",
+          "title": "Design First",
+          "subtitle": "Visualizing before building — design clarity makes code flow naturally"
+        }
+      ]
+    },
+    "welcome": {
+      "title": "Welcome",
+      "body": "This is a space where I share what I'm working on and what I've built along the way.",
+      "gif": "img/drunkenApe.gif"
+    },
+    "about": {
+      "name": "Alexander Hernandez",
+      "title": "Software QA Technical Lead",
+      "location": "San Francisco Bay Area",
+      "email": "pl3nny@live.com",
+      "bio": "I am a Software Quality Operations Lead with over 7.5 years of experience scaling safety, root cause analysis triage, and synthetic testing for industry-leading autonomous vehicle pipelines.\n\nMy core focus is bridging the gap between software engineering and operational testing. I specialize in architecting automated Python workflows, managing massive simulation datasets (Foretellix/OSC2), and engineering custom metrics that systematically isolate algorithmic regressions and machine learning anomalies. Whether I'm directing a cross-functional QA team or getting hands-on with root-cause analysis for edge-case bugs, my goal is to drive engineering velocity without ever compromising on safety.\n\nBeyond the AV space, I am an active builder and systems tinkerer. When I'm not deep in telemetry logs, I spend my time designing and 3D printing custom functional engineering parts, running containerized Linux/Docker home labs, and optimizing complex hardware arrays for deep-sky astrophotography.",
+      "technicalStack": "Python, C++, SQL, Linux, Bash, Docker, Foretellix, Machine Learning Validation, Data Pipeline Management",
+      "profileImage": "img/profilePicture.jpg",
+      "skills": {
+        "programmingLanguages": ["Python", "C++", "SQL", "Bash", "Java", "HTML5", "CSS3", "JavaScript"],
+        "tools": ["Docker", "Foretellix", "OSC2", "Linux", "Git", "CI/CD Pipelines", "MySQL", "JetBrains IDEs"]
+      },
+      "education": [
+        {
+          "school": "San Francisco State University",
+          "degree": "Bachelor of Science",
+          "field": "Computer Science",
+          "description": "Covered core CS fundamentals including data structures, algorithms, software engineering, and multiple programming paradigms. Active in Nu Alpha Kappa Fraternity, Inc. from Fall 2015.",
+          "dates": "2015 – 2018"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Software Quality Operations Technical Lead",
+          "company": "Nuro",
+          "dates": "Jul 2023 – Present",
+          "description": "Dual role as QA Operations Lead and internal tooling support, architecting Python workflows to resolve pipeline bottlenecks and ship new tooling features. Engineered data pipelines to ingest over 1,000 specialized context datasets with up to 2,000 unique synthetic scenes each, automating ML model validation. Authored continuous validation checks consuming Foretellix/OSC2 scenarios, establishing custom metrics that systematically flagged algorithmic regressions. Directed a QA operations team of up to 10 personnel."
+        },
+        {
+          "title": "Software Quality Operations Specialist",
+          "company": "Nuro",
+          "dates": "Feb 2021 – Jul 2023",
+          "description": "Developed simulated tests and custom metric checks to capture passing/failing behaviors across autonomous software variants. Designed robust synthetic scenarios to stress-test software and recreate complex real-world edge cases. Collaborated with engineering teams to report high-impact events, isolate root causes in the ML pipeline, and drive continuous bug resolution. Managed weekly CI software validation simulations and maintained critical testing dashboards."
+        },
+        {
+          "title": "Software Quality Operations Specialist (Contract)",
+          "company": "Waymo",
+          "dates": "Nov 2018 – Dec 2020",
+          "description": "Executed rigorous software test plans and provided critical live/on-call telemetry triage for autonomous vehicle fleets. Acted as primary technical liaison between Software Engineering and Operations, providing detailed data updates during weekly sprint meetings. Performed quality control and root-cause isolation on software behavior anomalies to ensure strict adherence to safety protocols."
+        },
+        {
+          "title": "Computer Science Tutor",
+          "company": "San Francisco Education Fund",
+          "dates": "Feb 2018 – May 2018",
+          "description": "Tutored high school students at Thurgood Marshall Academic High School in web development fundamentals (HTML, CSS) and introductory programming with micro:bit for hands-on projects and game development."
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Selenium WebDriver with Java for Beginners",
+          "issuer": "Udemy",
+          "date": "Oct 2020"
+        },
+        {
+          "name": "Master SQL for Data Science",
+          "issuer": "Udemy",
+          "date": "Oct 2020"
+        }
+      ],
+      "organization": {
+        "name": "Nu Alpha Kappa Fraternity, Inc.",
+        "roles": "President, Vice President, Financial Officer, Community Service, Brotherhood Chair",
+        "description": "Member since Fall 2015. Held multiple leadership roles across my undergraduate years, including Brotherhood Chair, Community Service, Treasurer, Vice President, and President in my final year at SFSU. Our chapter is known for strong community service and outreach programming.",
+        "dates": "Dec 2015 – Present",
+        "logo": "img/NAK_Emblem.png"
+      },
+      "languages": [
+        { "name": "English", "level": "Native or bilingual proficiency" },
+        { "name": "ASL", "level": "Limited working proficiency" }
+      ]
+    },
+    "footer": {
+      "copyright": "© 2026 Alexander Hernandez"
+    }
+  },
+  "nightflare": {
+    "name": "NightFlare",
+    "tagline": "Music, Film, Media Production & Talent Booking",
+    "location": "Los Angeles, California",
+    "emails": ["nightflare@gmail.com", "nightflare@nightflare.com"],
+    "favicon": "img/nfc-icon.png",
+    "logo": "img/updated-logo.png",
+    "textLogo": "img/NightFlare Text Logo (white).png",
+    "videoBackground": "video/NightFlare Background Website.mp4",
+    "social": {
+      "facebook": "https://www.facebook.com/nightflarecompany/",
+      "twitter": "https://twitter.com/nightflare_co",
+      "instagram": "https://www.instagram.com/nightflarecompany/",
+      "youtube": "https://www.youtube.com/channel/UCjqS_mdBNEgT3lx5tF5lY0g"
+    },
+    "nav": ["Home", "Events", "About", "Portfolio", "Team", "Contact"],
+    "team": [
+      {
+        "name": "David Hernandez",
+        "role": "Producer",
+        "title": "CEO",
+        "image": "img/team/team-dav-alt-sq.jpg"
+      },
+      {
+        "name": "Erstor Suares",
+        "role": "Film Director",
+        "title": "Napalm Monkey Productions",
+        "image": "img/team/team-erstor-sq.jpg"
+      },
+      {
+        "name": "Abraham Farias",
+        "role": "Assistant Director",
+        "title": "Flying Chimp Studios",
+        "image": "img/team/team-abraham-sq.jpg"
+      },
+      {
+        "name": "Frank Valentine",
+        "role": "Producer, Studio Recording",
+        "title": "",
+        "image": "img/team/team-fankie-sq.jpg"
+      },
+      {
+        "name": "Joaquin Sandoval",
+        "role": "Sound Engineer, Live Sound",
+        "title": "JQ Sound",
+        "image": "img/team/team-joaquin-sq.jpg"
+      },
+      {
+        "name": "Ryan Perez",
+        "role": "Marketing Consultant",
+        "title": "Shneaky Entertainment & Consulting",
+        "image": "img/team/team-ryan-sq.jpg"
+      }
+    ]
+  }
+}

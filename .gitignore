@@ -1,0 +1,13 @@
+# Tool artifacts
+.playwright-cli/
+lighthouse-*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Original astro photos (webp versions are what's used)
+img/astro/*.jpg
+
+# Verification screenshots (not part of the site)
+docs/screenshots/

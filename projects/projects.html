@@ -1,178 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewPort" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Astrophotography — Alexander Hernandez | Pl3nny</title>
+  <meta name="description" content="Astrophotography by Alexander Hernandez — deep-sky images of nebulae, galaxies, and star clusters from the San Francisco Bay Area.">
+  <meta name="author" content="Alexander Hernandez">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Astrophotography — Alexander Hernandez">
+  <meta property="og:description" content="Deep-sky imaging of nebulae, galaxies, and star clusters.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pl3nny.io/projects/projects.html">
 
   <link rel="icon" href="../img/thinkingEmoji.png">
-	<title>pl3nny projects</title>
-
-	<link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/projectsStyle.css">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-<!-- Navtigation -->
-<nav class="navbar navbar-expand-md fixed-top">
-<div class="container-fluid">
-	<a class="navbar-brand" href="../index.html"><img src="../img/thinkingEmoji.png" alt="thinking emoji">Pl3nny</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="../index.html">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="#projects">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="../about/about.html">About Me 👀</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
-      </li>
-      <li class="nav-item">
-				<a class="nav-link" href="https://github.com/pl3nny">GitHub</a>
-			</li>
-		</ul>
-	</div>
-</div>
-</nav>
-<!-- End of Navigation -->
-
-<!-- Start of Projects -->
-
-<div id="projects" class="offset">
-<div class="container-fluid offset">
-   <h1 class="my-4 text-center text-lg-center">Projects</h1>
-   <h3 clss = "my-4 text-center text-lg-center"></h3>
-
-<div class="row text-center text-lg-left">
-	<div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+<!-- Navigation -->
+<header>
+  <nav id="navbar" class="navbar">
+    <div class="container">
+      <a class="brand" href="../index.html">
+        <img src="../img/profilePicture.jpg" alt="Pl3nny avatar" width="32" height="32" class="nav-avatar">
+        <span>Pl3nny</span>
       </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="https://github.com/pl3nny" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+      </ul>
     </div>
+  </nav>
+</header>
 
-	<div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
+<main id="main">
+  <!-- Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="hero-title">Astrophotography</h1>
+      <p class="hero-subtitle">Deep-sky images from my backyard</p>
     </div>
+  </header>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2 class="section-title">Astrophotography</h2>
+      <p>Deep-sky imaging from my backyard. Click any image to view in full resolution.</p>
+      <div class="gallery-grid">
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- M31 — Andromeda Galaxy -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M31-heavy_stars-v1_hero.webp" data-caption="M31 — Andromeda Galaxy">
+          <img src="../img/astro/webp-gallery/M31-heavy_stars-v1_gallery.webp" alt="M31 — Andromeda Galaxy" width="800" height="600" loading="lazy">
+          <figcaption>M31 — Andromeda Galaxy</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- M51 — Whirlpool Galaxy -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M51-HDR2-no%20blue%20tint_hero.webp" data-caption="M51 — Whirlpool Galaxy">
+          <img src="../img/astro/webp-gallery/M51-HDR2-no%20blue%20tint_gallery.webp" alt="M51 — Whirlpool Galaxy" width="800" height="600" loading="lazy">
+          <figcaption>M51 — Whirlpool Galaxy</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- M8 — Lagoon Nebula -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M%208%20-%20The%20Lagoon%20Nebula%20-%203_hero.webp" data-caption="M8 — Lagoon Nebula">
+          <img src="../img/astro/webp-gallery/M%208%20-%20The%20Lagoon%20Nebula%20-%203_gallery.webp" alt="M8 — Lagoon Nebula" width="800" height="600" loading="lazy">
+          <figcaption>M8 — Lagoon Nebula</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- M16 — Eagle Nebula -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M16%20-%20Eagle%20Nebula%20SHO%20Hubble%20-%203_hero.webp" data-caption="M16 — Eagle Nebula">
+          <img src="../img/astro/webp-gallery/M16%20-%20Eagle%20Nebula%20SHO%20Hubble%20-%203_gallery.webp" alt="M16 — Eagle Nebula" width="800" height="600" loading="lazy">
+          <figcaption>M16 — Eagle Nebula</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- M27 — Dumbbell Nebula -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M27-HOO-3_hero.webp" data-caption="M27 — Dumbbell Nebula">
+          <img src="../img/astro/webp-gallery/M27-HOO-3_gallery.webp" alt="M27 — Dumbbell Nebula" width="800" height="600" loading="lazy">
+          <figcaption>M27 — Dumbbell Nebula</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- Markarian's Chain -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/Markarian's%20Chain%20v3_hero.webp" data-caption="Markarian's Chain">
+          <img src="../img/astro/webp-gallery/Markarian's%20Chain%20v3_gallery.webp" alt="Markarian's Chain" width="800" height="600" loading="lazy">
+          <figcaption>Markarian's Chain</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- NGC 7293 — Helix Nebula -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/NGC%207293%20-%20Helix%20Nebula%20-%201_hero.webp" data-caption="NGC 7293 — Helix Nebula">
+          <img src="../img/astro/webp-gallery/NGC%207293%20-%20Helix%20Nebula%20-%201_gallery.webp" alt="NGC 7293 — Helix Nebula" width="800" height="600" loading="lazy">
+          <figcaption>NGC 7293 — Helix Nebula</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- Leo Triplet -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/leo%20triplet%20non%20spike%200.7_hero.webp" data-caption="Leo Triplet">
+          <img src="../img/astro/webp-gallery/leo%20triplet%20non%20spike%200.7_gallery.webp" alt="Leo Triplet" width="800" height="600" loading="lazy">
+          <figcaption>Leo Triplet</figcaption>
+        </figure>
 
-    <div class="col-lg-3 col-md-4 col-xs-6">
-      <a href="#" class="d-block mb-4 h-100">
-        <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-      </a>
-    </div>
+        <!-- M104 — Sombrero Galaxy -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M104-sombrero%20galaxy%20v2%20-2_hero.webp" data-caption="M104 — Sombrero Galaxy">
+          <img src="../img/astro/webp-gallery/M104-sombrero%20galaxy%20v2%20-2_gallery.webp" alt="M104 — Sombrero Galaxy" width="800" height="600" loading="lazy">
+          <figcaption>M104 — Sombrero Galaxy</figcaption>
+        </figure>
 
-</div>
-</div>
+        <!-- M106 — Galaxy -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M106-1_hero.webp" data-caption="M106 — Galaxy">
+          <img src="../img/astro/webp-gallery/M106-1_gallery.webp" alt="M106 — Galaxy" width="800" height="600" loading="lazy">
+          <figcaption>M106 — Galaxy</figcaption>
+        </figure>
 
-</div>
+        <!-- M42 — Orion Nebula -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M42-20260318_hero.webp" data-caption="M42 — Orion Nebula">
+          <img src="../img/astro/webp-gallery/M42-20260318_gallery.webp" alt="M42 — Orion Nebula" width="800" height="600" loading="lazy">
+          <figcaption>M42 — Orion Nebula</figcaption>
+        </figure>
 
-<!-- Start of Contact -->
+        <!-- M46 & NGC 2438 -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M46%20and%20NGC%202438_hero.webp" data-caption="M46 &amp; NGC 2438">
+          <img src="../img/astro/webp-gallery/M46%20and%20NGC%202438_gallery.webp" alt="M46 &amp; NGC 2438" width="800" height="600" loading="lazy">
+          <figcaption>M46 &amp; NGC 2438</figcaption>
+        </figure>
 
-<div id="contact" class="offset">
-	
-  <div class="container-fluid footer">
-  <div class="row">
-  
-    <div class="col-md-5">
-      <img src="../img/thinkingEmoji.png" alt=""> <a href="#home" title="">Pl3nny</a>
-      <p>Check out my "About Me" and "Projects" Section 👀 ... when I finish it 😅</p>
-      <strong>Follow Me!</strong>
-      <br>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/alexander-hernandez-b1b645155/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/pl3nny"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/pl3nny"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/pl3nny/"><i class="fab fa-instagram"></i></a>
+        <!-- M63 — Sunflower Galaxy -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/M63_v2-1_hero.webp" data-caption="M63 — Sunflower Galaxy">
+          <img src="../img/astro/webp-gallery/M63_v2-1_gallery.webp" alt="M63 — Sunflower Galaxy" width="800" height="600" loading="lazy">
+          <figcaption>M63 — Sunflower Galaxy</figcaption>
+        </figure>
+
+        <!-- M81 & M82 — Bode's & Cigar Galaxies -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/m81andm82-30subs-1_hero.webp" data-caption="M81 &amp; M82 — Bode's &amp; Cigar Galaxies">
+          <img src="../img/astro/webp-gallery/m81andm82-30subs-1_gallery.webp" alt="M81 &amp; M82 — Bode's &amp; Cigar Galaxies" width="800" height="600" loading="lazy">
+          <figcaption>M81 &amp; M82 — Bode's &amp; Cigar Galaxies</figcaption>
+        </figure>
+
+        <!-- M99 & Galaxy Group -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/m99%20and%204%20other%20galaxies_hero.webp" data-caption="M99 &amp; Galaxy Group">
+          <img src="../img/astro/webp-gallery/m99%20and%204%20other%20galaxies_gallery.webp" alt="M99 &amp; Galaxy Group" width="800" height="600" loading="lazy">
+          <figcaption>M99 &amp; Galaxy Group</figcaption>
+        </figure>
+
+        <!-- Hercules Globular Cluster -->
+        <figure class="gallery-item" data-hero-src="../img/astro/webp-hero/the%20Great%20Hercules%20Globular%20Star%20Cluster%20v1_hero.webp" data-caption="Hercules Globular Cluster">
+          <img src="../img/astro/webp-gallery/the%20Great%20Hercules%20Globular%20Star%20Cluster%20v1_gallery.webp" alt="Hercules Globular Cluster" width="800" height="600" loading="lazy">
+          <figcaption>Hercules Globular Cluster</figcaption>
+        </figure>
+
       </div>
     </div>
-  
-    <div class="col-md-7">
-      <h3>Contact Me 😭</h3>
-      <P><a href="mailto:pl3nny@live.com" title=""><i class="fas fa-envelope"></i> Alexander Hernandez</a></P>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="gallery-lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" class="lightbox-image">
+      <figcaption id="lightbox-caption" class="lightbox-caption"></figcaption>
     </div>
-  
-    <hr class="socket">
-    &copy; pl3nny NAK AB A #10 
-  
-  </div> <!--- End Row -->
-  </div> <!--- End Container Footer -->
-  
   </div>
-  
-  <!-- End of Contact -->
-	
+</main>
 
-<!--- Script Source Files -->
-<script src="../js/jquery-3.3.1.min.js"></script>
-<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!--- End of Script Source Files -->
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-social">
+        <a href="https://www.linkedin.com/in/alexander-hernandez-b1b645155/" rel="noopener noreferrer" target="_blank" class="social-icon" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/pl3nny" rel="noopener noreferrer" target="_blank" class="social-icon" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.598.11.793-.258.793-.57 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.808 1.305 3.492.997.108-.775.418-1.304.762-1.604-2.665-.305-5.466-1.334-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.135-.304-.54-1.444.12-3.016 0 0 1.005-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.048.138 3.006.404 2.29-1.553 3.294-1.23 3.294-1.23.66 1.572.256 2.711.12 3.016.769.84 1.235 1.91 1.235 3.22 0 4.61-2.805 5.624-5.475 5.92.43.37.814 1.104.814 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.19.694.825.57C20.565 21.795 24 17.31 24 12c0-6.63-5.37-12-12-12"/></svg>
+        </a>
+        <a href="https://twitter.com/pl3nny" rel="noopener noreferrer" target="_blank" class="social-icon" aria-label="Twitter">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/pl3nny/" rel="noopener noreferrer" target="_blank" class="social-icon" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+    </div>
+    <p><a href="mailto:pl3nny@live.com">pl3nny@live.com</a></p>
+    <p>&copy; 2026 Alexander Hernandez</p>
+  </div>
+</footer>
 
-<!-- custom JavaScript -->
-<script src="../js/custom.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/projects.js"></script>
 </body>
 </html>
