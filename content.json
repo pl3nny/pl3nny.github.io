@@ -1,0 +1,166 @@
+{
+  "site": {
+    "name": "pl3nny.io",
+    "brand": "Pl3nny",
+    "favicon": "img/thinkingEmoji.png",
+    "author": "Alexander Hernandez"
+  },
+  "pl3nny": {
+    "nav": ["Home", "About", "Projects", "GitHub", "NightFlare"],
+    "github": "https://github.com/pl3nny",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/alexander-hernandez-b1b645155/",
+      "github": "https://github.com/pl3nny",
+      "twitter": "https://twitter.com/pl3nny",
+      "instagram": "https://www.instagram.com/pl3nny/"
+    },
+    "email": "pl3nny@live.com",
+    "hero": {
+      "slides": [
+        {
+          "image": "img/slide1.jpg",
+          "title": "Building Something New",
+          "subtitle": "Exploring ideas through code, design, and iteration"
+        },
+        {
+          "image": "img/slide2.jpg",
+          "title": "On the Move",
+          "subtitle": "Tools and projects I carry everywhere"
+        },
+        {
+          "image": "img/slide3.jpg",
+          "title": "Design First",
+          "subtitle": "Visualizing before building — design clarity makes code flow naturally"
+        }
+      ]
+    },
+    "welcome": {
+      "title": "Welcome",
+      "body": "This is a space where I share what I'm working on and what I've built along the way.",
+      "gif": "img/drunkenApe.gif"
+    },
+    "about": {
+      "name": "Alexander Hernandez",
+      "location": "San Francisco, CA",
+      "email": "alexander.hernandez.ra6@gmail.com",
+      "bio": "San Francisco State University alum with a B.S. in Computer Science. I work at the intersection of software quality and full-stack development, with a focus on building reliable systems and thoughtful user experiences.\n\nI'm constantly learning — whether it's a new language, framework, or approach to a problem I've already solved. I believe the best engineers are the ones who stay curious.\n\nCollaboration is central to how I work. Leading teams through my fraternity presidency taught me that good leadership isn't just about direction; it's about creating space for others to lead too.",
+      "profileImage": "img/pl3nny.jpg",
+      "skills": {
+        "programmingLanguages": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "C", "C++", "Django", "Java", "MySQL", "Python", "Ruby", "Swift", "PHP", "GitHub"],
+        "workflow": [
+          "Design, Prototype, Test, Deploy",
+          "Cross-Browser Testing & Debugging",
+          "Cross-Functional Team Leadership",
+          "Agile Development & Scrum"
+        ]
+      },
+      "education": [
+        {
+          "school": "San Francisco State University",
+          "degree": "Bachelor of Science",
+          "field": "Computer Science",
+          "description": "Covered core CS fundamentals including data structures, algorithms, software engineering, and multiple programming paradigms. Active in Nu Alpha Kappa Fraternity, Inc. from Fall 2015.",
+          "dates": "August 2015 – May 2018"
+        },
+        {
+          "school": "Mt. San Antonio College",
+          "degree": "Transfer",
+          "field": "Computer Science",
+          "dates": "January 2013 – May 2015"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Software Quality Engineer",
+          "company": "Nuro",
+          "dates": "February 2021 – Present",
+          "description": "Ensuring the quality and reliability of autonomous vehicle software through comprehensive testing strategies, automated test development, and cross-functional collaboration with engineering teams."
+        },
+        {
+          "title": "Software Quality Engineer",
+          "company": "Waymo",
+          "dates": "November 2018 – December 2020",
+          "description": "Led testing initiatives for autonomous driving systems — authored test scenarios, analyzed test data to surface regression risks, and partnered with product and engineering teams to drive quality improvements. Mentored new team members, maintained test documentation, and presented findings to stakeholders."
+        },
+        {
+          "title": "Computer Science Tutor",
+          "company": "San Francisco Education Fund",
+          "dates": "February 2018 – May 2018",
+          "description": "Tutored high school students at Thurgood Marshall Academic High School in web development fundamentals (HTML, CSS) and introductory programming with micro:bit for hands-on projects and game development."
+        },
+        {
+          "title": "Manager & Financial Manager",
+          "company": "Envios Salvamex",
+          "dates": "January 2012 – July 2015",
+          "description": "Managed daily operations and financial compliance for a remittance business. Handled CTR and SAR filings, oversaw wire transfer processing, and provided technical and customer support for payment services."
+        }
+      ],
+      "organization": {
+        "name": "Nu Alpha Kappa Fraternity, Inc.",
+        "roles": "President, Vice President, Financial Officer, Community Service, Brotherhood Chair",
+        "description": "Member since Fall 2015. Held multiple leadership roles across my undergraduate years, including Brotherhood Chair, Community Service, Treasurer, Vice President, and President in my final year at SFSU. Our chapter is known for strong community service and outreach programming.",
+        "dates": "Fall 2015 – Present",
+        "logo": "img/NAK_Emblem.png"
+      },
+      "interests": "Fitness is a constant in my routine. I also enjoy video games — plenty of them. I'm always looking for the next side project to dive into."
+    },
+    "footer": {
+      "copyright": "© 2026 Alexander Hernandez"
+    }
+  },
+  "nightflare": {
+    "name": "NightFlare",
+    "tagline": "Music, Film, Media Production & Talent Booking",
+    "location": "Los Angeles, California",
+    "emails": ["nightflare@gmail.com", "nightflare@nightflare.com"],
+    "favicon": "img/nfc-icon.png",
+    "logo": "img/updated-logo.png",
+    "textLogo": "img/NightFlare Text Logo (white).png",
+    "videoBackground": "video/NightFlare Background Website.mp4",
+    "social": {
+      "facebook": "https://www.facebook.com/nightflarecompany/",
+      "twitter": "https://twitter.com/nightflare_co",
+      "instagram": "https://www.instagram.com/nightflarecompany/",
+      "youtube": "https://www.youtube.com/channel/UCjqS_mdBNEgT3lx5tF5lY0g"
+    },
+    "nav": ["Home", "Events", "About", "Portfolio", "Team", "Contact"],
+    "team": [
+      {
+        "name": "David Hernandez",
+        "role": "Producer",
+        "title": "CEO",
+        "image": "img/team/team-dav-alt-sq.jpg"
+      },
+      {
+        "name": "Erstor Suares",
+        "role": "Film Director",
+        "title": "Napalm Monkey Productions",
+        "image": "img/team/team-erstor-sq.jpg"
+      },
+      {
+        "name": "Abraham Farias",
+        "role": "Assistant Director",
+        "title": "Flying Chimp Studios",
+        "image": "img/team/team-abraham-sq.jpg"
+      },
+      {
+        "name": "Frank Valentine",
+        "role": "Producer, Studio Recording",
+        "title": "",
+        "image": "img/team/team-fankie-sq.jpg"
+      },
+      {
+        "name": "Joaquin Sandoval",
+        "role": "Sound Engineer, Live Sound",
+        "title": "JQ Sound",
+        "image": "img/team/team-joaquin-sq.jpg"
+      },
+      {
+        "name": "Ryan Perez",
+        "role": "Marketing Consultant",
+        "title": "Shneaky Entertainment & Consulting",
+        "image": "img/team/team-ryan-sq.jpg"
+      }
+    ]
+  }
+}
