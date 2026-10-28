@@ -5,3 +5,7 @@ lighthouse-*.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Original astro photos (webp versions are what's used)
+img/astro/*.jpg
+img/astro/webp-hero/
