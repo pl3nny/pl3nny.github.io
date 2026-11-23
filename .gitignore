@@ -11,3 +11,6 @@ img/astro/*.jpg
 
 # Verification screenshots (not part of the site)
 docs/screenshots/
+
+# Python venv for tools/
+.venv/

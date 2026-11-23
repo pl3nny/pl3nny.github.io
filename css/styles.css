@@ -979,6 +979,13 @@ hr {
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.6);
 }
 
+.photo-rights {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-lg);
+}
+
 .lightbox-caption {
   color: #ffffff;
   font-size: 1rem;

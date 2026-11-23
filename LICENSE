@@ -1,0 +1,50 @@
+This repository contains two kinds of material under different terms.
+
+--------------------------------------------------------------------------
+1. PHOTOGRAPHS AND IMAGES — ALL RIGHTS RESERVED
+--------------------------------------------------------------------------
+
+Copyright (c) 2018-2026 Alexander Hernandez (pl3nny). All rights reserved.
+
+All astrophotographs in img/astro/ (and its subfolders), the profile photo,
+and any other original images in this repository are the copyrighted work
+of Alexander Hernandez. They are NOT covered by the MIT License below.
+
+You may view them on this website. You may not copy, download for reuse,
+redistribute, modify, print, sell, use for AI/ML training, or publish them
+anywhere else, in whole or in part, without prior written permission.
+
+For licensing or permission requests, contact: pl3nny@live.com
+
+Third-party images (for example, photos credited to Unsplash
+photographers) remain the property of their respective owners.
+
+--------------------------------------------------------------------------
+2. SOURCE CODE — MIT LICENSE
+--------------------------------------------------------------------------
+
+The HTML, CSS, JavaScript, and tooling in this repository (excluding the
+images described above) are licensed under the MIT License:
+
+Copyright (c) 2018-2026 Alexander Hernandez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Third-party code (for example, Start Bootstrap templates) retains its
+original license as noted in the respective files.

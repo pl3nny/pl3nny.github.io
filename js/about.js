@@ -38,7 +38,7 @@
       var alt = item.querySelector('img').getAttribute('alt');
       lightboxImg.src = heroSrc;
       lightboxImg.alt = alt;
-      lightboxCaption.textContent = caption;
+      lightboxCaption.textContent = caption + " · © Alexander Hernandez";
       currentIndex = index;
       lightbox.hidden = false;
       lightbox.setAttribute('aria-hidden', 'false');
